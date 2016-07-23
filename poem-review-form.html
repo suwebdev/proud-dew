@@ -76,47 +76,77 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Serenity xxxx pageS</h1>— by Edward Rowland Sill<p></p>
-        <p>Brook,
-Be still, be still!
-Midnight’s arch is broken
-In thy ceaseless ripples.
-Dark and cold below them
-Runs the troubled water,—
-Only on its bosom,
-Shimmering and trembling,
-Doth the glinted star-shine
-                  Sparkle and cease...</p>
-        
+      <div class="container poem-pg-poem-title">
+        <h1>Leave a Review</h1>
+          <!-- replace the poem title and author with template-binding variables -->
+        <p class="review-form-poem-title">The Road Not Taken<br>
+            &nbsp&nbsp <span  class="review-form-poem-author">- by Robert Frost</span>
+        </p>
       </div>
     </div>
 
     <div class="container container-home">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <ul class="list-unstyled">
-			  <li><span class="h2">Poems </span>by<li>
-			  <hr>
-			  <li><a href="#">A - C</a></li>
-			  <li><a href="#">D - F</a></li>
-			  <li><a href="#">G - I</a></li>
-			  <li><a href="#">J - L</a></li>
-			  <li><a href="#">M - O</a></li>
-			</ul>
-        </div>
-        <div class="col-md-8">
-          <h2 class="visible-md-block visible-lg-block">Title<br><br></h2>
-				
-          <h2>A - C</h2><p><a href="./poem.html">Aaron</a>
-<br>BY GEORGE HERBERT
-<br>Holiness on the head,</p>
-<p><a href="./poem.html">Abacus</a>
-<br>BY SANDY FLORIAN
-<br>A board.  A slab. A draught. A frame strewn with sand for the delineation of figures.
 
-       </div>
+
+          <div class="container poem-review-form">
+              <div class="row">
+                  <div class="col-xs-12 col-md-8">
+                      <!-- replace the action to return to poem page template-binding variables -->
+                      <form action="./poem.html" method="get" role="form" class="form-horizontal">
+                          <div class="form-group">
+                              <label for="name" class="col-xs-10 col-sm-2 control-label">Name</label>
+                              <div class="col-xs-12 col-sm-10">
+                                  <input id="name" name="name" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <label for="rating" class="col-xs-10 col-sm-2 control-label">Rating</label>
+                              <div class="col-xs-12 col-sm-2">
+                                  <select id="rating" name="rating" class="form-control input-sm">
+                                      <option>5</option>
+                                      <option>4</option>
+                                      <option>3</option>
+                                      <option>2</option>
+                                      <option>1</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <label for="review" class="col-sm-2 control-label">Review</label>
+                              <div class="col-sm-10">
+                                  <textarea id="review" name="review" rows="5" class="form-control"></textarea>
+                              </div>
+                          </div>
+                          <button class="btn btn-default pull-right">Add my review</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
       </div>
 
