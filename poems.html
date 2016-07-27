@@ -26,6 +26,7 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+		
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -35,11 +36,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><span class="sr-only">(current)</span>MegaPoem</a>
+          <a class="navbar-brand" href="index.html">MegaPoem</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav">
-			<li class="dropdown">
+			<li class="dropdown active">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poems <span class="caret"></span></a>
 			  <ul class="dropdown-menu">
 				 
@@ -52,8 +53,19 @@
 			  </ul>
 			</li>
 			<li><a href="#">Magazine</a></li>
-			<li><a href="about.html">About</a></li>  
-			
+			<li><a href="#">About</a></li>  
+			<!-- <li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poems <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">Subject Matter</a></li>
+				<li><a href="#">Aurther</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">One more separated link</a></li>
+			  </ul>
+			</li> -->
 		  </ul>	
           <ul class="nav navbar-nav navbar-right">
         		<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
@@ -65,9 +77,18 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Ut ultrices vitae dui</h1>
-        <p>Pellentesque egestas tellus accumsan libero eleifend blandit. Aliquam erat volutpat. Phasellus id est eget neque luctus dapibus. Vivamus rhoncus dui mattis augue condimentum, vel congue erat tristique. In hac habitasse platea dictumst. Suspendisse auctor augue at ultrices luctus. Phasellus mollis est arcu, eu aliquam lorem gravida eu. Integer eu rhoncus elit.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Read More &raquo;</a></p>
+        <h1>Serenity</h1>— by Edward Rowland Sill<p></p>
+        <p>Brook,
+Be still, be still!
+Midnight’s arch is broken
+In thy ceaseless ripples.
+Dark and cold below them
+Runs the troubled water,—
+Only on its bosom,
+Shimmering and trembling,
+Doth the glinted star-shine
+                  Sparkle and cease...</p>
+        
       </div>
     </div>
 
@@ -75,20 +96,28 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">Poems &raquo;</a></p>
+          <ul class="list-unstyled">
+			  <li><span class="h2">Poems </span>by<li>
+			  <hr>
+			  <li><a href="#">A - C</a></li>
+			  <li><a href="#">D - F</a></li>
+			  <li><a href="#">G - I</a></li>
+			  <li><a href="#">J - L</a></li>
+			  <li><a href="#">M - O</a></li>
+			</ul>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">Magazine &raquo;</a></p>
+        <div class="col-md-8">
+          <h2 class="visible-md-block visible-lg-block">Title<br><br></h2>
+				
+          <h2>A - C</h2><p><a href="#">Aaron</a>
+<br>BY GEORGE HERBERT
+<br>Holiness on the head,</p>
+<p><a href="#">Abacus</a>
+<br>BY SANDY FLORIAN
+<br>A board.  A slab. A draught. A frame strewn with sand for the delineation of figures.
+
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="about.html" role="button">About &raquo;</a></p>
-        </div>
+ 
       </div>
 
 
@@ -97,10 +126,10 @@
        
 		  <div class="container footer">
 			<ul class="list-inline">
-			  <li>&copy; Copyright MegaPoem 2016.</li>
-			  <li><a href="poems.html">Poems</a></li>
+			  <li>&copy; Copyright MegaPoems 2016.</li>
+			  <li><a href="#">Poems</a></li>
 			  <li><a href="#">Magazine</a></li>
-			  <li><a href="about.html">About</a></li>
+			  <li><a href="#">About</a></li>
 			  <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>	
 			</ul>
 		  </div>

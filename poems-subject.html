@@ -26,6 +26,7 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+		
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -35,11 +36,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><span class="sr-only">(current)</span>MegaPoem</a>
+          <a class="navbar-brand" href="index.html">MegaPoem</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav">
-			<li class="dropdown">
+			<li class="dropdown active">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poems <span class="caret"></span></a>
 			  <ul class="dropdown-menu">
 				 
@@ -53,7 +54,18 @@
 			</li>
 			<li><a href="#">Magazine</a></li>
 			<li><a href="about.html">About</a></li>  
-			
+			<!-- <li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poems <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">Subject Matter</a></li>
+				<li><a href="#">Aurther</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">One more separated link</a></li>
+			  </ul>
+			</li> -->
 		  </ul>	
           <ul class="nav navbar-nav navbar-right">
         		<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
@@ -65,9 +77,14 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Ut ultrices vitae dui</h1>
-        <p>Pellentesque egestas tellus accumsan libero eleifend blandit. Aliquam erat volutpat. Phasellus id est eget neque luctus dapibus. Vivamus rhoncus dui mattis augue condimentum, vel congue erat tristique. In hac habitasse platea dictumst. Suspendisse auctor augue at ultrices luctus. Phasellus mollis est arcu, eu aliquam lorem gravida eu. Integer eu rhoncus elit.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Read More &raquo;</a></p>
+        <h1>Katie</h1>— by HENRY TIMROD<p></p>
+        <p>It may be through some foreign grace, 
+And unfamiliar charm of face; 
+It may be that across the foam 
+Which bore her from her childhood’s home, 
+By some strange spell, my Katie brought, 
+Along with English creeds and thought...</p>
+        
       </div>
     </div>
 
@@ -75,20 +92,45 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">Poems &raquo;</a></p>
+          <ul class="list-unstyled">
+			  <li><span class="h2">Poems </span>by<li>
+			  <hr>
+			  <li><a href="#">Love</a></li>
+			  <li><a href="#">Seasonal</a></li>
+			  <li><a href="#">Birds</a></li>
+			  <li><a href="#">Blues</a></li>	
+			</ul>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">Magazine &raquo;</a></p>
+        <div class="col-md-8">
+          <h2 class="visible-md-block visible-lg-block">Subject Matter<br><br></h2>
+				
+          <h2>Love</h2><p><a href="#">Aaron</a>
+<br>BY GEORGE HERBERT
+<br>Holiness on the head,</p>
+<p><a href="#">Abacus</a>
+<br>BY SANDY FLORIAN
+<br>A board.  A slab. A draught. A frame strewn with sand for the delineation of figures.
+	<h2>Seasonal</h2><p><a href="#">Aaron</a>
+<br>BY GEORGE HERBERT
+<br>Holiness on the head,</p>
+<p><a href="#">Abacus</a>
+<br>BY SANDY FLORIAN
+<br>A board.  A slab. A draught. A frame strewn with sand for the delineation of figures.
+	<h2>Birds</h2><p><a href="#">Aaron</a>
+<br>BY GEORGE HERBERT
+<br>Holiness on the head,</p>
+<p><a href="#">Abacus</a>
+<br>BY SANDY FLORIAN
+<br>A board.  A slab. A draught. A frame strewn with sand for the delineation of figures.
+	<h2>Blues</h2><p><a href="#">Aaron</a>
+<br>BY GEORGE HERBERT
+<br>Holiness on the head,</p>
+<p><a href="#">Abacus</a>
+<br>BY SANDY FLORIAN
+<br>A board.  A slab. A draught. A frame strewn with sand for the delineation of figures.
+
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="about.html" role="button">About &raquo;</a></p>
-        </div>
+ 
       </div>
 
 
@@ -97,9 +139,9 @@
        
 		  <div class="container footer">
 			<ul class="list-inline">
-			  <li>&copy; Copyright MegaPoem 2016.</li>
+			  <li>&copy; Copyright MegaPoems 2016.</li>
 			  <li><a href="poems.html">Poems</a></li>
-			  <li><a href="#">Magazine</a></li>
+			  <li><a href="#">Megazine</a></li>
 			  <li><a href="about.html">About</a></li>
 			  <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>	
 			</ul>
