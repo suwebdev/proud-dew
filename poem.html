@@ -11,7 +11,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        
         <style>
             body {
                 padding-top: 50px;
@@ -19,6 +18,7 @@
             }
         </style>
 		<link rel="stylesheet" href="css/theme-bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -76,18 +76,9 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Serenity</h1>— by Edward Rowland Sill<p></p>
-        <p>Brook,
-Be still, be still!
-Midnight’s arch is broken
-In thy ceaseless ripples.
-Dark and cold below them
-Runs the troubled water,—
-Only on its bosom,
-Shimmering and trembling,
-Doth the glinted star-shine
-                  Sparkle and cease...</p>
+      <div class="container poem-pg-poem-title">
+        <h1>The Road Not Taken</h1>— by Robert Frost<p></p>
+        <p></p>
         
       </div>
     </div>
@@ -96,31 +87,93 @@ Doth the glinted star-shine
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <ul class="list-unstyled">
-			  <li><span class="h2">Poems </span>by<li>
 			  <hr>
-			  <li><a href="#">A - C</a></li>
-			  <li><a href="#">D - F</a></li>
-			  <li><a href="#">G - I</a></li>
-			  <li><a href="#">J - L</a></li>
-			  <li><a href="#">M - O</a></li>
-			</ul>
-        </div>
-        <div class="col-md-8">
-          <h2 class="visible-md-block visible-lg-block">Title<br><br></h2>
-				
-          <h2>A - C</h2><p><a href="./poem.html">Aaron</a>
-<br>BY GEORGE HERBERT
-<br>Holiness on the head,</p>
-<p><a href="./poem.html">Abacus</a>
-<br>BY SANDY FLORIAN
-<br>A board.  A slab. A draught. A frame strewn with sand for the delineation of figures.
+            <img src="./img/360px-Jb_modern_frost_2_e%20(1).jpg" class="img-responsive" alt="Author Image">
 
-       </div>
+            <hr>
+              <p class="poem-pg-author-bio">Robert Frost was born in San Francisco, California, to journalist William Prescott Frost, Jr., and Isabelle Moodie. His mother was a Scottish immigrant, and his father descended from Nicholas Frost of Tiverton, Devon, England, who had sailed to New Hampshire in 1634 on the Wolfrana.</p>
+        </div>
+        <div class="col-md-8 "poem-pg-poem-text">
+          <h2 class="visible-md-block visible-lg-block"></h2>
+				
+          <p>
+            Two roads diverged in a yellow wood,<br>
+            And sorry I could not travel both<br>
+            And be one traveler, long I stood<br>
+            And looked down one as far as I could<br>
+            To where it bent in the undergrowth;<br>
+            <br>
+            Then took the other, as just as fair,<br>
+            And having perhaps the better claim,<br>
+            Because it was grassy and wanted wear;<br>
+            Though as for that the passing there<br>
+            Had worn them really about the same,<br>
+            <br>
+            And both that morning equally lay<br>
+            In leaves no step had trodden black.<br>
+            Oh, I kept the first for another day!<br>
+            Yet knowing how way leads on to way,<br>
+            I doubted if I should ever come back.<br>
+            <br>
+            I shall be telling this with a sigh<br>
+            Somewhere ages and ages hence:<br>
+            Two roads diverged in a wood, and I—<br>
+            I took the one less traveled by,<br>
+            And that has made all the difference.<br>
+        </p>
+
+	<!-- Poem Review Section ------------------->
+
+        <div class="row poem-pg-review">
+          <div class="col-xs-12">
+              <div class="panel panel-primary review-panel">
+                  <div class="panel-heading"><a href="./poem-review-form.html" class="btn btn-default pull-right">Add review</a>
+                      <h2 class="panel-title">Reader Reviews</h2></div>
+                  <div class="panel-body review-container">
+                      <div class="row">
+                          <div class="review">
+                              <div class="well well-sm review-header">
+                                  <span class="rating">
+                                      <span class="glyphicon glyphicon-star"></span>
+                                      <span class="glyphicon glyphicon-star"></span>
+                                      <span class="glyphicon glyphicon-star"></span>
+                                      <span class="glyphicon glyphicon-star"></span>
+                                      <span class="glyphicon glyphicon-star"></span>
+                                      <span class="reviewAuthor">Manny Ramirez</span>
+                                      <small class="reviewTimestamp">23 July 2016</small>
+                                  </span>
+                              </div>
+                              <div class="col-xs-12">
+                                  <p>This poem is mediocre. I fell to sleep twice while reading it. Ortiz doesn't know what he's talking about.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="review">
+                              <div class="well well-sm review-header">
+                                  <span class="rating">
+                                      <span class="glyphicon glyphicon-star"></span>
+                                      <span class="glyphicon glyphicon-star"></span>
+                                      <span class="glyphicon glyphicon-star-empty"></span>
+                                      <span class="glyphicon glyphicon-star-empty"></span>
+                                      <span class="glyphicon glyphicon-star-empty"></span>
+                                      <span class="reviewAuthor">David Ortiz</span>
+                                      <small class="reviewTimestamp">22 July 2016</small>
+                                  </span>
+                              </div>
+                              <div class="col-xs-12">
+                                  <p>I love this poem almost as much as slamming a baseball.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
  
       </div>
-
-
       
       </div> <!-- /container --> 
        
@@ -133,7 +186,6 @@ Doth the glinted star-shine
 			  <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>	
 			</ul>
 		  </div>
-	
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
