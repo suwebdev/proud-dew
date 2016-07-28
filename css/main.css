@@ -10,9 +10,14 @@ poem-pg-review {
 
 
 
-
-
-
+/* Email settings list */
+.email-pref {
+  list-style-type: none;
+  padding-left: 0;
+}
+.email-pref li {
+  padding-bottom: 5px;
+}
 
 
 
