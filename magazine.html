@@ -10,8 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-        
+   
         <style>
             body {
                 padding-top: 50px;
@@ -21,17 +20,26 @@
                 margin-top: 50px;
                 text-align: center;
             }
-            
-            
-            
-          
-            
-            
+            .btn-primary{
+                
+                 width:150px;
+                text-align: center;
+                margin-top: 5px;
+            }
+          #poemLinks{
+                
+              font-size: 15px;
+              padding: 0;
+            }
+            .jumbotron{
+                text-align: center;
+            }
         </style>
+        
 		<link rel="stylesheet" href="css/theme-bootstrap.css">
-
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
+    
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -51,19 +59,15 @@
 		  <ul class="nav navbar-nav">
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poems <span class="caret"></span></a>
-			  <ul class="dropdown-menu">
-				 
-				 
+			  <ul class="dropdown-menu">	 
 				<li><a href="poems.html">Title</a></li>
 				<li><a href="poems-subject.html">Subject Matter</a></li>
 				<li><a href="#">Popularity</a></li>
-				
 				<li><a href="#">Location</a></li>
 			  </ul>
 			</li>
-			<li><a href="magazine.html">Magazine</a></li>
+			<li><a href="magazine.html" class="active">Magazine</a></li>
 			<li><a href="about.html">About</a></li>  
-			
 		  </ul>	
           <ul class="nav navbar-nav navbar-right">
         		<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
@@ -71,104 +75,274 @@
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
+        
+    <!--Page Header-->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>MegaPoem Magazine Issues</h1>
+      </div>
+    </div>    
 
     <div class="container">
     <div class="row">
+        
+      <!--Poem Card-->
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH I.</h4>    
+                <h4 class="card-title">MegaPoem January ISH I.</h4>   
             </div>
             <img class="card-img" src="../img/PoemCoverMonet2.jpg" alt="Card image" width="150px" height="185px">
+                 
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueI" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueI">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>To Catch a Fish </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Ostrich and Lark </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Lullaby </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>November </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Gift </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>The late year </i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
+        
+      <!--Poem Card--> 
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH II.</h4>
-                
+                <h4 class="card-title">MegaPoem February ISH II.</h4>  
             </div>
           <img class="card-img" src="../img/PoemCoverVanGogh.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueII" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueII">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>Good Bones </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>February 30th </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Thunder raining poison </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>The Theft Outright </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Another Planet </i></p></a></li>
+                    <li><a href= "poem.html"><p><i>On Imperialism </i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
+        
+      <!--Poem Card-->  
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH III.</h4>
-                
+                <h4 class="card-title">MegaPoem March ISH III.</h4>  
             </div>
           <img class="card-img" src="../img/PoemCoverMonetjpg.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueIII" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueIII">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.htmpoem.html"><p><i>Name and Place</i></p></a></li>
+                    <li><a href= "poem.htmpoem.html"><p><i>New Friend</i></p></a></li>
+                    <li><a href= "poem.htmpoem.html"><p><i>Worry</i></p></a></li>
+                    <li><a href= "poem.htmpoem.html"><p><i>The Door</i></p></a></li>
+                    <li><a href= "poem.htmpoem.html"><p><i>Offerings</i></p></a></li>
+                    <li><a href= "poem.htmpoem.html"><p><i>What We Believed</i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
     </div>
   </div> 
   <br><br><br><br> 
+        
   <div class="container">
     <div class="row">
+        
+      <!--Poem Card-->    
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH IV.</h4>
-                
+                <h4 class="card-title">MegaPoem April ISH IV.</h4>   
             </div>
           <img class="card-img" src="../img/monetFlowers.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueIV" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueIV">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>There and Then</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Dog Vertigo</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Toy Boat</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>During the Vietnam War</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>English</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Nobody Knows</i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
+        
+      <!--Poem Card-->    
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH V.</h4>
-                
+                <h4 class="card-title">MegaPoem May ISH V.</h4> 
             </div>
           <img class="card-img" src="../img/monetPond.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueV" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueV">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>Loneliness</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Lake Mungo</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Nautical Twilight</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Nocturnal Tripping</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Granite Weaving</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Terrarium</i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
+        
+      <!--Poem Card-->  
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH VI.</h4>
-                
+                <h4 class="card-title">MegaPoem June ISH VI.</h4>
             </div>
           <img class="card-img" src="../img/monetSnow.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueVI" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueVI">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>Spoon Ode</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Prayer 48</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>The Bridge</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>On Disappearing</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Now I Pray</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Yellowtail</i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
     </div>
   </div> 
 <br><br><br><br>
+        
 <div class="container">
     <div class="row">
+    
+      <!--Poem Card-->    
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH VII.</h4>
-                
+                <h4 class="card-title">MegaPoem July ISH VII.</h4>     
             </div>
           <img class="card-img" src="../img/monetSea.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueVII" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueVII">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>Wonders</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Mighty Pawns</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Art & Craft</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Fourth of July</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>True Myth</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Football Weather</i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
+        
+      <!--Poem Card-->    
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH VIII.</h4>
-                
+                <h4 class="card-title">MegaPoem August ISH VIII.</h4>     
             </div>
           <img class="card-img" src="../img/monetCastle.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueVIII" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueVIII">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>Why Is We Americans</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Booranga Wire Songs</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Chain Gang</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>The Highland</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>New York to San Fran</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Grunge</i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
+        
+      <!--Poem Card-->    
       <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">MegaPoem ISH IX.</h4>
-                
+                <h4 class="card-title">MegaPoem September ISH IX.</h4>     
             </div>
           <img class="card-img" src="../img/monetCliff.jpg" alt="Card image" width="150px" height="185px">
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseListIssueIX" aria-expanded="false" aria-controls="collapseExample">
+              View Poems
+              </a>
+            </p>
+              <div class="collapse" id="collapseListIssueIX">
+                <div class="card card-block">
+                  <ul id="poemLinks" style="list-style-type:none">
+                    <li><a href= "poem.html"><p><i>Loser Bait</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>The Millihelen</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>The Colossus</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Coyote Song</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Latitudes</i></p></a></li>
+                    <li><a href= "poem.html"><p><i>Center of the World</i></p></a></li>
+                  </ul>  
+                </div>
+              </div>
         </div>
       </div>
     </div>
   </div>           
-
-        
-
       
       </div> <!-- /container --> 
        
