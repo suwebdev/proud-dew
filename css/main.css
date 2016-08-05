@@ -9,6 +9,10 @@ poem-pg-review {
 }
 
 
+.save-btn {
+  padding-left: 5px;
+}
+
 
 /* Email settings list */
 .email-pref {
@@ -18,7 +22,7 @@ poem-pg-review {
 .email-pref li {
   padding-bottom: 5px;
 }
-
+>>>>>>> master
 
 
 
