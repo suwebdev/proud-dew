@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<script src="https://use.fontawesome.com/eef414928c.js"></script>
 
         
         <style>
@@ -26,6 +27,7 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+		
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -35,11 +37,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><span class="sr-only">(current)</span>MegaPoem</a>
+          <a class="navbar-brand" href="index.html">MegaPoem</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav">
-			<li class="dropdown">
+			<li class="dropdown active">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poems <span class="caret"></span></a>
 			  <ul class="dropdown-menu">
 				 
@@ -53,7 +55,18 @@
 			</li>
 			<li><a href="#">Magazine</a></li>
 			<li><a href="about.html">About</a></li>  
-			
+			<!-- <li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poems <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">Subject Matter</a></li>
+				<li><a href="#">Aurther</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">One more separated link</a></li>
+			  </ul>
+			</li> -->
 		  </ul>	
           <ul class="nav navbar-nav navbar-right">
         		<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
@@ -65,9 +78,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Ut ultrices vitae dui</h1>
-        <p>Pellentesque egestas tellus accumsan libero eleifend blandit. Aliquam erat volutpat. Phasellus id est eget neque luctus dapibus. Vivamus rhoncus dui mattis augue condimentum, vel congue erat tristique. In hac habitasse platea dictumst. Suspendisse auctor augue at ultrices luctus. Phasellus mollis est arcu, eu aliquam lorem gravida eu. Integer eu rhoncus elit.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Read More &raquo;</a></p>
+        <h1>ABOUT US</h1>— MegaPoem Creed<p></p>
+        <p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p>
+        
       </div>
     </div>
 
@@ -75,20 +88,34 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">Poems &raquo;</a></p>
+          <ul class="list-unstyled">
+			  
+			  <li><h3>Mission</h3><p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem</p></li>
+			  <li><h3>The Team</h3>Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam</li>
+			  <li><h3>Connect Us</h3>
+				  <a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+				  <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+				  <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+				  <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+			  </li>
+			  <li></li>	
+			</ul>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">Magazine &raquo;</a></p>
+        <div class="col-md-8">
+          <h2 class="visible-md-block visible-lg-block">Contact Us<br><br></h2>
+			<form>
+			  <div class="form-group">
+				<label>Your Name</label>
+				<input type="email" class="form-control" placeholder="your name">
+			  </div>
+			  <div class="form-group">
+				<label>Message</label>
+				<textarea class="form-control" rows="5" placeholder="your message goes here..."></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-default">Send</button>
+			</form>	
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="about.html" role="button">About &raquo;</a></p>
-        </div>
+ 
       </div>
 
 
@@ -97,7 +124,7 @@
        
 		  <div class="container footer">
 			<ul class="list-inline">
-			  <li>&copy; Copyright MegaPoem 2016.</li>
+			  <li>&copy; Copyright MegaPoems 2016.</li>
 			  <li><a href="poems.html">Poems</a></li>
 			  <li><a href="#">Magazine</a></li>
 			  <li><a href="about.html">About</a></li>
