@@ -3,16 +3,23 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
- 
+
 poem-pg-review {
     padding-top: 30px;
 }
 
+/*Start of profile styling*/
+.profile-title {
+  height: 60px;
+}
+.profile-heading {
+  color: gray;
+}
 
 .save-btn {
   padding-left: 5px;
+  padding-top: 10px
 }
-
 
 /* Email settings list */
 .email-pref {
@@ -23,13 +30,3 @@ poem-pg-review {
   padding-bottom: 5px;
 }
 >>>>>>> master
-
-
-
-
-
-
-
-
-
-
