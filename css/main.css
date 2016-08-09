@@ -4,7 +4,7 @@
    Author's custom styles
    ========================================================================== */
  
-poem-pg-review {
+.poem-pg-review {
     padding-top: 30px;
 }
 
@@ -24,7 +24,10 @@ poem-pg-review {
 }
 >>>>>>> master
 
-
+body {
+	padding-top: 50px;
+    padding-bottom: 20px;
+}
 
 
 
